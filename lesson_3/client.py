@@ -1,10 +1,12 @@
 """ Клиент JIM (JSON instant messaging """
 
-import sys, json, socket, time
-from socket import socket, AF_INET, SOCK_STREAM, SOL_SOCKET, SO_REUSEADDR
-from common.variables import DEFAULT_PORT, DEFAULT_IP_ADDRESS, MAX_CONNECTIONS, ACTION, USER, ACCOUNT_NAME, \
-    TIME, RESPONSE, ERROR, PRESENCE
+import json
+import sys
+import time
+from socket import socket, AF_INET, SOCK_STREAM
 from common.utils import get_message, send_message
+from common.variables import DEFAULT_PORT, DEFAULT_IP_ADDRESS, ACTION, USER, ACCOUNT_NAME, \
+    TIME, RESPONSE, ERROR, PRESENCE
 
 
 # Присутствие. Сервисное сообщение для извещения сервера о присутствии клиента online;
