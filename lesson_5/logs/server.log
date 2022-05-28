@@ -1,0 +1,41 @@
+2022-05-28 10:42:48,630  DEBUG     server      Ответ клиенту. Код 200 
+2022-05-28 10:51:40,873  CRITICAL  server      После параметра -p необходимо указать номер порта. По умолчанию будет выставлен 7777 
+2022-05-28 10:58:01,073  CRITICAL  server      После параметра -p необходимо указать номер порта. По умолчанию будет выставлен 7777 
+2022-05-28 10:58:27,334  CRITICAL  server      После параметра -p необходимо указать номер порта. По умолчанию будет выставлен 7777 
+2022-05-28 10:58:51,737  CRITICAL  server      После параметра -p необходимо указать номер порта. По умолчанию будет выставлен 7777 
+2022-05-28 10:59:25,742  DEBUG     server      Ответ клиенту. Код 200 
+2022-05-28 11:00:21,546  CRITICAL  server      Номер порта должен быть указан в пределах 1024 - 65635 
+2022-05-28 11:01:38,104  INFO      server      Server start 
+2022-05-28 11:02:44,724  INFO      server      Server start 
+2022-05-28 11:06:05,081  INFO      server      Server start 
+2022-05-28 11:07:21,675  INFO      server      Server start 
+2022-05-28 11:09:51,443  INFO      server      Server start 
+2022-05-28 11:15:29,237  DEBUG     server      Ответ клиенту. Код 200 
+2022-05-28 11:17:30,212  INFO      server      Server start 
+2022-05-28 11:18:21,433  INFO      server      Server start 
+2022-05-28 11:21:52,540  INFO      server      Server start 
+2022-05-28 11:22:10,285  INFO      server      Server start 
+2022-05-28 11:22:28,478  INFO      server      Server start 
+2022-05-28 11:23:07,890  INFO      server      Server start 
+2022-05-28 11:32:38,019  INFO      server      Server start 
+2022-05-28 11:32:40,619  ERROR     server      Ошибка парсинга JSON 
+2022-05-28 11:35:02,898  INFO      server      Server start 
+2022-05-28 11:35:05,266  WARNING   server      Ошибка парсинга JSON 
+2022-05-28 11:39:40,597  WARNING   server      Ошибка парсинга JSON 
+2022-05-28 11:40:24,407  WARNING   server      Ошибка парсинга JSON 
+2022-05-28 11:51:08,527  WARNING   server      Ошибка парсинга JSON 
+2022-05-28 11:51:58,255  DEBUG     server      Ответ клиенту. Код 200 
+2022-05-28 11:52:28,070  DEBUG     server      Ответ клиенту. Код 401 
+2022-05-28 11:55:32,697  DEBUG     server      Ответ клиенту. Код 200 
+2022-05-28 12:00:46,147  ERROR     server_log_config  Отладочное сообщение
+2022-05-28 12:02:01,680  DEBUG     server      Ответ клиенту. Код 200 
+2022-05-28 12:07:14,542  INFO      server      Server start
+2022-05-28 12:08:32,287  WARNING   server      Ошибка парсинга JSON
+2022-05-28 12:09:09,585  DEBUG     server      Ответ клиенту на presence. Код 200
+2022-05-28 12:09:41,454  WARNING   server      Ошибка парсинга JSON
+2022-05-28 12:09:53,422  WARNING   server      Ошибка парсинга JSON
+2022-05-28 12:10:07,243  WARNING   server      Ошибка парсинга JSON
+2022-05-28 12:10:51,649  DEBUG     server      Ответ клиенту на presence. Код 200
+2022-05-28 12:20:03,561  DEBUG     server      Ответ клиенту на presence. Код 200
+2022-05-28 12:20:06,486  INFO      server      Server start
+2022-05-28 12:20:08,508  DEBUG     server      Ответ клиенту на presence. Код 200
