@@ -134,3 +134,10 @@
 2022-06-01 22:19:24,917  INFO      decorators  вызов get_message() с параметрами (<socket.socket fd=5, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 53067), raddr=('127.0.0.1', 7777)>,) {} из функции main
 2022-06-01 22:19:24,917  DEBUG     client      Успешный ответ от сервера с кодом 200
 2022-06-01 22:19:24,917  INFO      decorators  вызов process_ans() с параметрами ({'response': 200},) {} из функции main
+2022-06-05 17:25:39,371  WARNING   client      Не указали адрес и порт сервера. Были применены настройки по умолчанию 127.0.0.1:7777
+2022-06-05 17:25:39,373  DEBUG     client      Создан запрос присутствия для клиента Guest
+2022-06-05 17:25:39,373  INFO      decorators  вызов create_presence() с параметрами ('Guest',) {} из функции main
+2022-06-05 17:25:39,373  INFO      decorators  вызов send_message() с параметрами (<socket.socket fd=5, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 58568), raddr=('127.0.0.1', 7777)>, {'action': 'presence', 'time': 1654439139.3733451, 'user': {'account_name': 'Guest'}}) {} из функции main
+2022-06-05 17:25:39,374  INFO      decorators  вызов get_message() с параметрами (<socket.socket fd=5, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 58568), raddr=('127.0.0.1', 7777)>,) {} из функции main
+2022-06-05 17:25:39,374  DEBUG     client      Успешный ответ от сервера с кодом 200
+2022-06-05 17:25:39,374  INFO      decorators  вызов process_ans() с параметрами ({'response': 200},) {} из функции main

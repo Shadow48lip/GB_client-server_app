@@ -1,47 +1,7 @@
-2022-06-01 20:57:44,370  INFO      server      Server start
-2022-06-01 20:57:51,451  INFO      server      Server start
-2022-06-01 20:57:56,885  INFO      server      Server start
-2022-06-01 20:58:05,511  INFO      server      Server start
-2022-06-01 20:58:26,546  DEBUG     server      Ответ клиенту на presence. Код 200
-2022-06-01 21:00:35,036  DEBUG     server      Ответ клиенту на presence. Код 200
-2022-06-01 21:01:02,051  INFO      server      Server start
-2022-06-01 21:01:06,425  DEBUG     server      Ответ клиенту на presence. Код 200
-2022-06-01 21:03:32,999  DEBUG     server      Ответ клиенту на presence. Код 200
-2022-06-01 21:03:49,153  INFO      server      Server start
-2022-06-01 21:03:51,725  DEBUG     server      Ответ клиенту на presence. Код 200
-2022-06-01 21:25:24,226  DEBUG     server      Ответ клиенту на presence. Код 200
-2022-06-01 21:28:48,132  DEBUG     server      Ответ клиенту на presence. Код 200
-2022-06-01 21:31:23,432  DEBUG     server      Ответ клиенту на presence. Код 200
-2022-06-01 21:31:51,510  DEBUG     server      Ответ клиенту на presence. Код 200
-2022-06-01 21:32:10,120  DEBUG     server      Ответ клиенту на presence. Код 200
-2022-06-01 21:34:00,987  DEBUG     server      Ответ клиенту на presence. Код 200
-2022-06-01 21:35:15,547  DEBUG     server      Ответ клиенту на presence. Код 200
-2022-06-01 21:36:24,199  DEBUG     decorators  вызов из декоратора
-2022-06-01 21:36:24,200  INFO      server      Server start
-2022-06-01 21:36:27,453  DEBUG     server      Ответ клиенту на presence. Код 200
-2022-06-01 21:51:20,240  DEBUG     server      Ответ клиенту на presence. Код 200
-2022-06-01 21:52:27,509  DEBUG     server      Ответ клиенту на presence. Код 200
-2022-06-01 21:56:45,336  DEBUG     server      Ответ клиенту на presence. Код 200
-2022-06-01 21:56:58,576  DEBUG     server      Ответ клиенту на presence. Код 200
-2022-06-01 22:03:00,256  DEBUG     server      Ответ клиенту на presence. Код 200
-2022-06-01 22:06:52,283  DEBUG     server      Ответ клиенту на presence. Код 200
-2022-06-01 22:12:15,667  DEBUG     server      Ответ клиенту на presence. Код 200
-2022-06-01 22:13:26,110  DEBUG     server      Ответ клиенту на presence. Код 200
-2022-06-01 22:15:02,726  INFO      server      Server start
-2022-06-01 22:15:05,540  INFO      decorators  вызов get_message() с параметрами (<socket.socket fd=6, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 53056)>,) {} из функции main
-2022-06-01 22:15:05,541  DEBUG     server      Ответ клиенту на presence. Код 200
-2022-06-01 22:15:05,541  INFO      decorators  вызов process_client_message() с параметрами ({'action': 'presence', 'time': 1654110905.540419, 'user': {'account_name': 'Guest'}},) {} из функции main
-2022-06-01 22:15:05,541  INFO      decorators  вызов send_message() с параметрами (<socket.socket fd=6, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 53056)>, {'response': 200}) {} из функции main
-2022-06-01 22:16:56,762  INFO      decorators  вызов get_message() с параметрами (<socket.socket fd=6, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 53060)>,) {} из функции main
-2022-06-01 22:16:56,762  DEBUG     server      Ответ клиенту на presence. Код 200
-2022-06-01 22:16:56,762  INFO      decorators  вызов process_client_message() с параметрами ({'action': 'presence', 'time': 1654111016.7615402, 'user': {'account_name': 'Guest'}},) {} из функции main
-2022-06-01 22:16:56,762  INFO      decorators  вызов send_message() с параметрами (<socket.socket fd=6, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 53060)>, {'response': 200}) {} из функции main
-2022-06-01 22:18:08,845  INFO      decorators  вызов get_message() с параметрами (<socket.socket fd=6, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 53061)>,) {} из функции main
-2022-06-01 22:18:08,845  DEBUG     server      Ответ клиенту на presence. Код 200
-2022-06-01 22:18:08,845  INFO      decorators  вызов process_client_message() с параметрами ({'action': 'presence', 'time': 1654111088.845289, 'user': {'account_name': 'Guest'}},) {} из функции main
-2022-06-01 22:18:08,846  INFO      decorators  вызов send_message() с параметрами (<socket.socket fd=6, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 53061)>, {'response': 200}) {} из функции main
-2022-06-01 22:18:10,648  INFO      server      Server start
-2022-06-01 22:19:24,916  INFO      decorators  вызов get_message() с параметрами (<socket.socket fd=6, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 53067)>,) {} из функции main
-2022-06-01 22:19:24,917  DEBUG     server      Ответ клиенту на presence. Код 200
-2022-06-01 22:19:24,917  INFO      decorators  вызов process_client_message() с параметрами ({'action': 'presence', 'time': 1654111164.916522, 'user': {'account_name': 'Guest'}},) {} из функции main
-2022-06-01 22:19:24,917  INFO      decorators  вызов send_message() с параметрами (<socket.socket fd=6, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 53067)>, {'response': 200}) {} из функции main
+2022-06-05 17:25:03,289  INFO      server      Server start
+2022-06-05 17:25:18,639  INFO      server      Server start
+2022-06-05 17:25:30,414  INFO      server      Server start
+2022-06-05 17:25:39,373  INFO      decorators  вызов get_message() с параметрами (<socket.socket fd=6, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 58568)>,) {} из функции main
+2022-06-05 17:25:39,374  DEBUG     server      Ответ клиенту на presence. Код 200
+2022-06-05 17:25:39,374  INFO      decorators  вызов process_client_message() с параметрами ({'action': 'presence', 'time': 1654439139.3733451, 'user': {'account_name': 'Guest'}},) {} из функции main
+2022-06-05 17:25:39,374  INFO      decorators  вызов send_message() с параметрами (<socket.socket fd=6, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 58568)>, {'response': 200}) {} из функции main
