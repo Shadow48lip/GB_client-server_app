@@ -85,7 +85,7 @@ def process_client_message(message, messages_list, sock, all_clients, names):
 def process_message(message, names, listen_socks):
     """
     Функция адресной отправки сообщения определённому клиенту. Принимает словарь сообщение,
-    список зарегистрированых пользователей и слушающие сокеты. Ничего не возвращает.
+    список зарегистрированных пользователей и слушающие сокеты. Ничего не возвращает.
     :param message:
     :param names:
     :param listen_socks:
